@@ -51,3 +51,21 @@ addTechBtn.addEventListener("click", () => {
     };
     reader.readAsDataURL(file);
 });
+
+// Получаем все изображения с классом .clickable-img
+const images = document.querySelectorAll('.clickable-img');
+
+// Добавляем обработчик клика на каждое изображение
+images.forEach(image => {
+    image.addEventListener('click', () => {
+        // Если изображение уже увеличено, убираем увеличение
+        if (image.classList.contains('enlarged')) {
+            image.classList.remove('enlarged');
+            image.classList.remove('active');
+        } else {
+            // Если изображение не увеличено, увеличиваем
+            image.classList.add('enlarged');
+            image.classList.add('active');
+        }
+    });
+});
