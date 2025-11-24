@@ -257,6 +257,13 @@ footer {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Добавляем эффект тени */
 }
 
+@media (max-width: 768px) {
+    .catalog-card img:hover {
+        transform: none; /* Отключаем увеличение на мобильных */
+        box-shadow: none; /* Убираем тень */
+    }
+}
+
 
 
 
