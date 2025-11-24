@@ -147,4 +147,60 @@ footer {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(94,228,255,0.5);
 }
+.catalog-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.catalog-form input[type="text"] {
+    flex: 1 1 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #5ee4ff;
+    background: #1a1a1a;
+    color: #eee;
+}
+
+.catalog-form input[type="file"] {
+    flex: 1 1 200px;
+}
+
+.catalog-form button {
+    padding: 10px 20px;
+    background: #5ee4ff;
+    color: #111;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.catalog-form button:hover {
+    background: #39c4e5;
+}
+
+.catalog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.catalog-card {
+    background: #1a1a1a;
+    border: 2px solid #5ee4ff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.catalog-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
 
