@@ -243,6 +243,20 @@ footer {
     font-size: 14px;
     margin-top: 10px;
 }
+.catalog-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.catalog-card img:hover {
+    transform: scale(1.2); /* Увеличиваем изображение */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); /* Добавляем эффект тени */
+}
+
 
 
 
