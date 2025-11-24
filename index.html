@@ -77,21 +77,33 @@
     </section>
 
 
-    <!-- Контакты -->
-    <section class="block" id="contacts">
-		<h2>Контакты</h2>
+<section class="block" id="contacts">
+    <h2>Контакты и каталог военной техники</h2>
 
-		<p>Ниже указано текущее расположение производственных офисов и ключевых объектов Mauss-Metall.</p>
+    <p>Здесь вы можете видеть текущее расположение офисов и каталог военной техники.</p>
 
-		<div class="map-box">
-			<img src="images/map.png" alt="Карта расположения офисов Mauss-Metall">
-		</div>
+    <!-- Карта офисов -->
+    <div class="map-box">
+        <img src="images/map.png" alt="Карта расположения офисов Mauss-Metall">
+    </div>
 
-		<p>Вы можете использовать данную карту для RP-навигации, логистики и взаимодействия с нашей организацией.</p>
-	</section>
+    <h3>Каталог военной техники</h3>
+
+    <div class="catalog-form">
+        <input type="text" id="techName" placeholder="Название техники">
+        <input type="file" id="techImage" accept="image/*">
+        <button id="addTechBtn">Добавить технику</button>
+    </div>
+
+    <div id="catalog" class="catalog-container">
+        <!-- Здесь будут появляться карточки техники -->
+    </div>
+</section>
+
 
 
 </body>
 </html>
+
 
 
