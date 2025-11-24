@@ -264,6 +264,53 @@ footer {
     }
 }
 
+.catalog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.catalog-card {
+    background: #1a1a1a;
+    border: 2px solid #5ee4ff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px; /* Размер карточки */
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.catalog-card h4 {
+    font-size: 18px;
+    color: #5ee4ff;
+}
+
+.catalog-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.catalog-card p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Стиль для увеличенного изображения */
+.catalog-card img.enlarged {
+    transform: scale(1.5); /* Увеличиваем изображение */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+/* Стиль при активации (курсор на увеличенное изображение) */
+.catalog-card img.active {
+    cursor: zoom-out;
+}
+
 
 
 
