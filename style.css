@@ -202,5 +202,47 @@ footer {
     border-radius: 5px;
     margin-top: 10px;
 }
+.catalog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.catalog-card {
+    background: #1a1a1a;
+    border: 2px solid #5ee4ff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.catalog-card:hover {
+    background: #5ee4ff;
+    color: #111;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(94, 228, 255, 0.5);
+}
+
+.catalog-card h4 {
+    font-size: 18px;
+    color: #5ee4ff;
+}
+
+.catalog-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.catalog-card p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
 
 
